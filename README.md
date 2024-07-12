@@ -1,3 +1,21 @@
+#Run Instruction
+```
+1. run: docker compose up -d [ this will run this applicaiton on 9090 port]
+2. migrate: npm run migrate | docker compose exec -it app npm run migrate
+3. test: npm test | docker compose exec -it app npm test
+4. api-collection: api-doc/
+```
+
+#core work:
+```
+1. config docker and docker-compose
+2. struct project
+3. modify sequelize folder structre
+3. write unit test
+4. develop apis
+```
+
+#Project Structure
 ```
 ├── README.md
 ├── api-doc
@@ -55,6 +73,4 @@
 │       └── file-2024-07-12.log.log
 └── test
     ├── analyze.test.js
-    └── sentence.test.js
-
 ```
