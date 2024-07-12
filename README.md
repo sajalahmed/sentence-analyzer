@@ -13,6 +13,9 @@
 3. modify sequelize folder structre
 3. write unit test
 4. develop apis
+5. keycloak configuration
+6. throttle setup
+7. enable log writing.
 ```
 
 #Project Structure
