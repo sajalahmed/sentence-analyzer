@@ -1,0 +1,18 @@
+# github Actions
+.github
+
+# Node artifact files
+node_modules/
+dist/
+
+# Project
+#.env
+package-lock.json
+
+# Log files
+*.log
+
+
+
+# Unit test reports
+TEST*.xml
